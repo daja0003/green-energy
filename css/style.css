@@ -1,0 +1,254 @@
+body {
+    margin: auto;
+    line-height: 1.6em;
+}
+
+ul {
+    background-color: #80707a;
+}
+
+li {
+    display: block;
+    text-decoration: none;
+}
+
+li a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+    color: #e7c6c7;
+}
+
+li a:hover {
+    list-style: none;
+    font-weight: bolder;
+    color: #e7c6c7;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.headerBg {
+    background-image: url(../img/masthead.png);
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    font-family: 'Kotta One', serif;
+    font-size: 1.777em;
+    color: #e7c6c7;
+}
+
+h3 {
+    font-family: 'Kotta One', serif;
+    font-size: 1em;
+    color: #e7c6c7;
+    margin-top: 0;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+main {
+    background-color: #ffeaeb;
+    padding-top: 5%;
+    min-height: 500px;
+
+}
+
+button {
+    width: 15%;
+    border-style: none;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.btn {
+    padding: 0;
+    margin: auto;
+}
+
+button img {
+    width: 100%;
+
+}
+
+.buttons {
+    margin-bottom: 3%;
+    margin-left: 4.5%;
+}
+
+#active {
+    border-style: solid;
+    border-width: 3px;
+    background-color: aqua;
+}
+
+.imgfd img {
+    width: 100%;
+
+}
+
+.text h3 {
+    margin-top: 5%;
+    font-family: 'Kotta One', serif;
+    font-size: 1em;
+    color: black;
+    font-weight: bolder;
+}
+
+.text p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.75em;
+    padding-right: 15px;
+}
+
+footer {
+    text-align: center;
+    background-color: #80707a;
+    height: 5em;
+}
+
+.face {
+    font-size: 4rem;
+    margin-right: 2%;
+    color: #e7c6c7;
+}
+
+.tube {
+    font-size: 4rem;
+    margin-right: 2%;
+    color: #e7c6c7;
+}
+
+.linked {
+    font-size: 4rem;
+    margin-right: 2%;
+    color: #e7c6c7;
+}
+
+@media screen and (min-width: 30rem) {
+    body {
+        margin: auto;
+    }
+
+    header {
+        width: 100%;
+        margin: auto;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .headerBg {
+        max-width: 960px;
+        height: 50vh;
+        margin: auto;
+    }
+
+    button {
+        width: 7.5%;
+
+    }
+
+    ul {
+        text-align: center;
+        max-width: 960px;
+        margin: auto;
+    }
+
+    li {
+        display: inline-block;
+
+    }
+
+    li a {
+        padding: 1em;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1.333em;
+    }
+
+    a:hover {
+        list-style: none;
+        font-weight: bolder;
+        color: aliceblue;
+    }
+
+    h1 {
+        font-family: 'Kotta One', serif;
+        font-size: 2.369em;
+    }
+
+    h3 {
+        font-family: 'Kotta One', serif;
+        font-size: 1.333em;
+    }
+
+    main {
+        max-width: 960px;
+        margin: auto;
+    }
+
+    .content {
+        width: 100%;
+
+    }
+
+    .add {
+        width: 100%;
+        text-align: center;
+        margin-top: 0;
+
+    }
+
+    .imgfd {
+        max-width: 45%;
+        text-align: center;
+        margin-top: 0;
+        padding: 0;
+        display: inline-block;
+    }
+
+    .imgfd img {
+        width: 100%;
+        height: auto;
+        margin-right: 2%;
+
+    }
+
+    img {
+        vertical-align: inherit;
+    }
+
+    .add .text {
+        width: 40%;
+        display: inline-block;
+        margin-left: 2%;
+        vertical-align: top;
+    }
+
+    .text h3 {
+        width: 100%;
+        margin-top: 0;
+        padding-bottom: 0;
+        font-family: 'Kotta One', serif;
+        font-size: 1.333em;
+
+    }
+
+    .text p {
+        width: 100%;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1em;
+        margin-bottom: 0;
+
+        text-align: left;
+    }
+
+    footer {
+        max-width: 960px;
+        margin: auto;
+    }
+}
