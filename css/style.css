@@ -1,3 +1,8 @@
+/*Navigation & Footer Background color: #80707a
+Font Color: #e7c6c7
+Active Font Color: #e7c6c7(Bolder)
+Social Media Color: #e7c6c7
+Active Button Background Color: #00FFFF*/
 body {
     margin: auto;
     line-height: 1.6em;
@@ -82,7 +87,7 @@ button img {
 #active {
     border-style: solid;
     border-width: 3px;
-    background-color: aqua;
+    background-color: #00FFFF;
 }
 
 .imgfd img {
